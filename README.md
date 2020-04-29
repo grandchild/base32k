@@ -2,6 +2,10 @@
 [![GoDoc](https://godoc.org/github.com/grandchild/base32k?status.svg)](https://godoc.org/github.com/grandchild/base32k)
 [![License](https://img.shields.io/github/license/grandchild/base32k.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+(You should really use [base2048](https://github.com/qntm/base2048) instead,
+it's far superior. I had fun with this one, but I didn't know about base2048
+at the time.)
+
 *base32k* is a slightly whimsical binary-to-text encoding, which transforms
 raw binary data into (possibly obscene combinations of) UTF-8 characters from
 the CJK and Hangul unicode blocks. Its alphabet consists of 2^15 = 32768
